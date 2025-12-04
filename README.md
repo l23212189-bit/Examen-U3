@@ -59,7 +59,8 @@ DB_NAME=laboratorio
 ## `index.html`
 Representa la vista principal de la página web. El código contiene una breve descripción del propósito de la página, algunas funciones a realizar y contenido específico acerca de intrumentos biomédicos. 
 
-```html<!DOCTYPE html>
+```html
+<!DOCTYPE html>
 <html lang="es">
 
 <head>
