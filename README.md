@@ -59,8 +59,7 @@ DB_NAME=laboratorio
 ## `index.html`
 Representa la vista principal de la página web. El código contiene una breve descripción del propósito de la página, algunas funciones a realizar y contenido específico acerca de intrumentos biomédicos. 
 
-```html
-<!DOCTYPE html>
+```html<!DOCTYPE html>
 <html lang="es">
 
 <head>
@@ -86,7 +85,10 @@ Representa la vista principal de la página web. El código contiene una breve d
       <div class="card-body">
         <h2 class="card-title">Catalogo de instrumentacion biomedica</h2>
         <p class="card-text">Navega nuestro catalogo de equipos biomedicos</p>
-        <button onclick="window.location.href='/instrumentos.html'" class="btn btn-primary" >CATALOGO</button>
+        <button onclick="window.location.href='/instrumentos'" class="btn btn-primary" >CATALOGO</button>
+        <h2 class="card-title">Registros</h2>
+        <p class="card-text">Cargas y descargas de los equipos</p>
+        <button onclick="window.location.href='/instrumentos.html'" class="btn btn-primary" >REGISTROS</button>
       </div>
     </div>
   </div>
@@ -95,7 +97,7 @@ Representa la vista principal de la página web. El código contiene una breve d
     <div class="card shadow-sm h-100">
       <div class="card-body">
         <h2 class="card-title">Busqueda de equipos</h2>
-        <p class="card-text">Busca instrumentos especificos del catalogo a traves de nuestro navegador</p>>
+        <p class="card-text">Busca instrumentos especificos del catalogo a traves de nuestro navegador</p>
         <button onclick="window.location.href='/busqueda.html'" class="btn btn-secondary">BUSCAR</button>
       </div>
     </div>
@@ -139,6 +141,7 @@ Representa la vista principal de la página web. El código contiene una breve d
 
 </body>
 </html>
+
 ```
 
 ---
